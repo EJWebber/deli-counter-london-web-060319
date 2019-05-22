@@ -11,5 +11,5 @@ end
 
 def take_a_number(line, name)
   line.push(name)
-  puts ("Hello #{name}, you are number " + line.length + " in line.")
+  puts ("Hello #{name}, you are number #{line.length} in line.")
 end
