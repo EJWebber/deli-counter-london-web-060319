@@ -6,3 +6,10 @@ def line(line)
     "The line is currently empty."
   else
   
+end
+end
+
+def take_a_number(line, name)
+  line.push(name)
+  puts ("Hello #{name}, you are number " + line.size + " in line.")
+end
