@@ -7,7 +7,7 @@ def line(line)
   else
   current_line = "The line is currently:"
   line.each_with_index.map |n, index|
-  "#{index+1}. #{n}"
+  current_line.push("#{index+1}. #{n}")
 end
 puts current_line
 end
