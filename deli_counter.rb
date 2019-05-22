@@ -6,8 +6,8 @@ def line(line)
     "The line is currently empty."
   else
   current_line = "The line is currently:"
-  line.each_with_index.map |n, index|
-  current_line.push("#{index+1}. #{n}")
+  line.each_with_index.map |name, index|
+  current_line.push("#{index+1}. #{name}")
 end
 puts current_line
 end
