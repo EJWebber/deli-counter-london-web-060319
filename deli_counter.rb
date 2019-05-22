@@ -5,7 +5,11 @@ def line(line)
   if line.length == 0
     "The line is currently empty."
   else
-  current_line = "The line is currently"
+  current_line = "The line is currently:"
+  line.each_with_index.map |n, index|
+  "#{index+1}. #{n}"
+end
+puts current_line
 end
 end
 
