@@ -5,7 +5,7 @@ def line(line)
   if line.length == 0
     "The line is currently empty."
   else
-  
+  current_line = "The line is currently"
 end
 end
 
